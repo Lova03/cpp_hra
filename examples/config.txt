@@ -1,0 +1,28 @@
+[Levels]
+Level 1,./examples/maps/level1.txt
+Level 2,./examples/maps/level2.txt
+Level 3,./examples/maps/level3.txt
+Level 4,./examples/maps/level4.txt
+Level 4,./examples/maps/level4.txt
+Level 4,./examples/maps/level4.txt
+Level 5,./examples/maps/level5.txt
+Level 3,./examples/maps/level3.txt
+Level 3,./examples/maps/level3.txt
+Level 3,./examples/maps/level3.txt
+
+
+// Valid talents: speed,haste,spawnrate,health,stronk
+// Any other talent wont be shown in the game
+// Separate the crystal and wood price with ;
+[Talents]
+speed,40;24
+haste,60;30
+spawnrate,80;120
+health,40;20
+stronk,26;38
+
+// You can create comments with //
+
+// Format to add a level or talent is:
+// <name>,<path to level file>
+// <name>,<price in crystals;price in wood>
